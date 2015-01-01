@@ -1,0 +1,57 @@
+.container{
+    position:absolute; 
+    top:50%; 
+    margin-top:-100px;
+    left:50%;
+    margin-left:-250px;
+	}
+	
+	.contai{
+    position:absolute; 
+    top:50%; 
+    margin-top:-100px;
+    left:50%;
+    margin-left:-250px;
+	}
+.input{
+	height: 25px;
+	padding: 15px;
+	width: 380px;
+	border-radius: 5px;
+    font-size: 10pt;
+    }
+.formulario{
+	padding: 30px;
+}
+
+.confirm {
+    color: #16a085;
+    border: 2px solid #16a085;
+    background: #f4f4f4;
+}
+
+.confirm:hover,
+.confirm:active {
+    color: #f4f4f4;
+    background: #16a085;
+}
+
+.confirm{
+    font-size: 10pt;
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 5px 0;
+    padding: 9px 0;
+
+    cursor: pointer;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    text-align: center;
+    text-decoration: none;
+
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-clip: padding-box;
+}
